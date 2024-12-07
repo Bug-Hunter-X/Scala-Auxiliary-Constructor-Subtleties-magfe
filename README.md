@@ -1,0 +1,2 @@
+# Scala Auxiliary Constructor Subtleties
+This example demonstrates a potential issue when using auxiliary constructors in Scala.  An auxiliary constructor can be used in specific situations to set default values or execute additional initialization logic, but they can introduce unexpected behavior if not implemented carefully. The provided example shows a simple case where an auxiliary constructor initializes a default value.  However, the interaction between this constructor and other class members could lead to more complex issues.
